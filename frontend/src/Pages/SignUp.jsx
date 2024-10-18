@@ -125,8 +125,12 @@ const SignUp = () => {
               onChange={comparePass}
               required
             />
-            <input type="checkbox" name="conditions" id="conditions" />
-            <label for="conditions" >I agree to all <Link to="#" >terms</Link></label>
+            <span>
+              <input type="checkbox" name="conditions" id="conditions" />
+              <label for="conditions">
+                I agree to all <Link to="#">terms</Link>
+              </label>
+            </span>
             <button type="submit">Sign Up</button>
             <p>
               Already have an account?<Link to="/login">Log In</Link>
