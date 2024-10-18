@@ -97,7 +97,6 @@ const Login = () => {
         <form onSubmit={handleAuth}>
           <h1>Log In</h1>
           {isLogin ? <h2>Invalid user/password</h2> : ""}
-          <lable for="email">Email</lable>
           <input
             type="email"
             name="email"
@@ -105,7 +104,6 @@ const Login = () => {
             value={state.email}
             onChange={handleChange}
           />
-          <lable for="password">Password</lable>
           <input
             type="password"
             name="password"

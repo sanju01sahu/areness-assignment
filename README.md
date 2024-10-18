@@ -78,7 +78,7 @@ Inside backend folder:
 
 
 ### Deployment
-- Frontend:[Frontend](https://books-task-manager-y1ir.vercel.app/).
+- Frontend:[Frontend]().
 - Backend: [Backend](https://areness-assignment.onrender.com).
 
 ## Test User
