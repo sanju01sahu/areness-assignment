@@ -78,7 +78,7 @@ Inside backend folder:
 
 
 ### Deployment
-- Frontend:[Frontend]().
+- Frontend:[Frontend](https://joyful-cactus-da4367.netlify.app/).
 - Backend: [Backend](https://areness-assignment.onrender.com).
 
 ## Test User
