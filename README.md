@@ -1,8 +1,92 @@
-# React + Vite
+#  Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A MERN application for basic Authentication.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+### User-side features
+
+- Signup
+- Login
+- Logout
+
+
+
+## Tools and Technologies
+
+- HTML
+- Javascript
+- CSS
+- Node.js
+- Express.js
+- Mongodb
+
+## Dependencies
+
+Following are the major dependencies of the project:
+
+- bcrypt
+- dotenv
+- express
+- jsonwebtoken
+- mongoose
+
+
+
+## Installation and Setup
+
+### Note: Node.js Must be installed in the system
+
+To run this application locally, follow these steps:
+
+1. Clone this repository.
+2. Navigate to the project directory.
+
+Inside frontend folder:
+
+- `npm install`: Installs all the dependencies
+- `npm run dev`: Starts Application in dev mode.
+- `npm run build`: Creates production build
+
+### Applicaton will connect to deployed node Server
+
+Inside backend folder:
+
+- `npm install`: Installs all the dependencies
+- `npm run dev`: Starts backend using nodemon.
+- `npm start`: Starts backend without nodemon.
+
+## Backend API
+
+<pre>
+- POST     /user/signup
+- POST     /user/login
+
+</pre>
+
+## Frontend pages
+
+<pre>
+- /                 Home Screen (Public home page for guests and private dashboard (tasks) for logged-in users)
+- /signup.html          Signup page
+- /login                Login page
+- /taskitem.html        Add new task
+</pre>
+
+
+
+### Deployment
+- Frontend:[Frontend](https://books-task-manager-y1ir.vercel.app/).
+- Backend: [Backend](https://areness-assignment.onrender.com).
+
+## Test User
+NA
+
+## ScreenShots
+NA
+
+
+
+
